@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo class</title>
+    <style>
+      .menu-list li a {
+        color: black;
+        font-size: 40px;
+      }
+
+      .menu-list li a:hover {
+        font-size: 100px;
+        color: #ddd;
+        background-color: red;
+        text-decoration: none;
+        padding: 20px;
+        border-radius: 48px;
+        transition: all 3s;
+      }
+      /* .nav-link {
+        color: blueviolet;
+        font-size: 100px;
+      } */
+
+      .content {
+        background: #ddd;
+        width: 400px;
+        height: 200px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        gap: 20px;
+      }
+      p {
+        font-size: 32px;
+        display: none;
+      }
+
+      .content:hover .box,
+      .content:hover .box1 {
+        transition: all 5s;
+        border-radius: 100%;
+        transform: translate(50%, -100%);
+      }
+      .box,
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background: #da7676;
+        transition: 5s;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu-list">
+      <li><a href="" class="nav-link">HOME</a></li>
+      <li><a href="" class="nav-link">ABOUT</a></li>
+      <li><a href="" class="nav-link">BLOG</a></li>
+      <li><a href="" class="nav-link">CONTACT</a></li>
+    </ul>
+
+    <div class="content">
+      <div class="box"></div>
+      <div class="box1"></div>
+    </div>
+  </body>
+</html>

@@ -25,6 +25,7 @@ a {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 999;
 }
 
 .nav-menu {
@@ -65,9 +66,9 @@ p {
 }
 
 .z-index p {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   color: white;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
