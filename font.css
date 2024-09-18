@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
+
+* {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Fascinate Inline", system-ui;
+}
