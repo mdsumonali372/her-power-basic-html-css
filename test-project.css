@@ -11,7 +11,8 @@ section {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -25,4 +26,19 @@ section {
   width: 33%;
   border: 1px solid blue;
   padding: 20px;
+  background-color: purple;
+}
+
+.first-column {
+  background: url("img2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.first-column-img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100%;
 }
