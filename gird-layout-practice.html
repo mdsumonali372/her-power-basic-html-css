@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout CSS</title>
+    <style>
+      .container {
+        width: 50%;
+        margin: 0 auto;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4px;
+      }
+
+      .two {
+        grid-row: span 2;
+      }
+
+      .three {
+        grid-row: span 2;
+      }
+
+      .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container div {
+        background-color: tomato;
+        color: white;
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one"></div>
+      <div class="two item">
+        <img src="glass.png" alt="" />
+      </div>
+      <div class="three item">
+        <img src="glass2.png" alt="" />
+      </div>
+      <div class="four"></div>
+    </div>
+  </body>
+</html>
